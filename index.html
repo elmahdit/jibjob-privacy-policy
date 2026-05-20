@@ -1,94 +1,265 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Politique de confidentialité - JIBJOB</title>
 
   <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
     body{
       font-family: Arial, sans-serif;
-      background:#f5f5f5;
-      margin:0;
-      padding:40px;
-      line-height:1.7;
+      background:#f4f4f4;
       color:#222;
+      line-height:1.8;
+      padding:30px;
     }
 
     .container{
-      max-width:900px;
+      max-width:1000px;
       margin:auto;
-      background:white;
+      background:#fff;
       padding:40px;
-      border-radius:12px;
-      box-shadow:0 0 10px rgba(0,0,0,0.1);
+      border-radius:15px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
     }
 
     h1{
+      text-align:center;
       color:#c1272d;
+      margin-bottom:10px;
+    }
+
+    .date{
+      text-align:center;
+      color:gray;
+      margin-bottom:30px;
     }
 
     h2{
-      margin-top:30px;
       color:#0b5d3b;
+      margin-top:35px;
+      margin-bottom:15px;
+      border-left:5px solid #c1272d;
+      padding-left:10px;
+    }
+
+    h3{
+      margin-top:20px;
+      color:#333;
+    }
+
+    p{
+      margin-bottom:15px;
+    }
+
+    ul{
+      margin-left:25px;
+      margin-bottom:20px;
+    }
+
+    li{
+      margin-bottom:8px;
     }
 
     a{
       color:#0066cc;
+      text-decoration:none;
+    }
+
+    a:hover{
+      text-decoration:underline;
+    }
+
+    .footer{
+      margin-top:40px;
+      text-align:center;
+      color:gray;
+      font-size:14px;
+    }
+
+    @media(max-width:768px){
+      body{
+        padding:15px;
+      }
+
+      .container{
+        padding:25px;
+      }
     }
   </style>
 </head>
+
 <body>
 
 <div class="container">
 
-<h1>Politique de confidentialité - JIBJOB</h1>
+  <h1>Politique de confidentialité de JIBJOB</h1>
 
-<p>Dernière mise à jour : 20 Mai 2026</p>
+  <p class="date">Dernière mise à jour : 20 Mai 2026</p>
 
-<p>
-JIBJOB respecte votre vie privée et protège vos données personnelles.
-</p>
+  <p>
+    Bienvenue sur JIBJOB.
+    La protection de vos données personnelles est importante pour nous.
+    Cette Politique de confidentialité explique comment notre application collecte,
+    utilise et protège vos informations lorsque vous utilisez JIBJOB.
+  </p>
 
-<h2>Informations collectées</h2>
+  <h2>1. Informations collectées</h2>
 
-<ul>
-  <li>Nom et prénom</li>
-  <li>Email</li>
-  <li>Numéro de téléphone</li>
-  <li>Photo de profil</li>
-  <li>Localisation GPS</li>
-</ul>
+  <p>Notre application peut collecter les informations suivantes :</p>
 
-<h2>Utilisation GPS</h2>
+  <h3>Informations du compte</h3>
 
-<p>
-L’application utilise votre position afin d’afficher les jobs proches de vous.
-</p>
+  <p>Lors de l’inscription ou de la connexion, nous pouvons collecter :</p>
 
-<h2>Caméra</h2>
+  <ul>
+    <li>Nom et prénom</li>
+    <li>Adresse e-mail</li>
+    <li>Numéro de téléphone</li>
+    <li>Photo de profil</li>
+  </ul>
 
-<p>
-La caméra peut être utilisée pour ajouter une photo de profil ou publier des images.
-</p>
+  <h3>Données de localisation (GPS)</h3>
 
-<h2>Google Maps</h2>
+  <p>JIBJOB utilise la localisation GPS afin de :</p>
 
-<p>
-L’application utilise Google Maps pour afficher les cartes et les positions.
-</p>
+  <ul>
+    <li>afficher les jobs et services proches de vous ;</li>
+    <li>afficher votre position sur la carte ;</li>
+    <li>améliorer les résultats selon votre zone géographique.</li>
+  </ul>
 
-<h2>Sécurité</h2>
+  <p>
+    La localisation est utilisée uniquement avec votre autorisation.
+  </p>
 
-<p>
-Nous faisons notre possible pour protéger vos données.
-</p>
+  <h3>Caméra et photos</h3>
 
-<h2>Contact</h2>
+  <p>L’application peut accéder à votre caméra ou galerie pour :</p>
 
-<p>
-Email : votre-email@example.com
-</p>
+  <ul>
+    <li>ajouter une photo de profil ;</li>
+    <li>publier des images liées à un job ou service.</li>
+  </ul>
+
+  <p>
+    Aucune photo n’est prise sans votre consentement.
+  </p>
+
+  <h3>Données Google Maps</h3>
+
+  <p>
+    JIBJOB utilise Google Maps Platform pour afficher les cartes et les positions géographiques.
+  </p>
+
+  <p>
+    L’utilisation de Google Maps peut entraîner la collecte de certaines données conformément à la politique de confidentialité de Google :
+  </p>
+
+  <p>
+    <a href="https://policies.google.com/privacy" target="_blank">
+      Politique de confidentialité Google
+    </a>
+  </p>
+
+  <h2>2. Utilisation des données</h2>
+
+  <p>Les informations collectées sont utilisées pour :</p>
+
+  <ul>
+    <li>créer et gérer votre compte ;</li>
+    <li>permettre la connexion sécurisée ;</li>
+    <li>afficher les jobs proches de votre position ;</li>
+    <li>améliorer l’expérience utilisateur ;</li>
+    <li>assurer la sécurité et prévenir les abus ;</li>
+    <li>communiquer avec les utilisateurs.</li>
+  </ul>
+
+  <h2>3. Partage des données</h2>
+
+  <p>
+    Nous ne vendons pas vos données personnelles.
+  </p>
+
+  <p>
+    Certaines informations peuvent être partagées avec des services tiers nécessaires au fonctionnement de l’application, notamment :
+  </p>
+
+  <ul>
+    <li>Google Firebase</li>
+    <li>Google Maps Platform</li>
+    <li>services d’authentification Google.</li>
+  </ul>
+
+  <h2>4. Sécurité des données</h2>
+
+  <p>
+    Nous mettons en œuvre des mesures de sécurité raisonnables pour protéger vos informations contre :
+  </p>
+
+  <ul>
+    <li>l’accès non autorisé ;</li>
+    <li>la modification ;</li>
+    <li>la divulgation ;</li>
+    <li>la destruction des données.</li>
+  </ul>
+
+  <p>
+    Cependant, aucune méthode de transmission sur Internet n’est totalement sécurisée.
+  </p>
+
+  <h2>5. Vos droits</h2>
+
+  <p>Vous pouvez :</p>
+
+  <ul>
+    <li>accéder à vos données ;</li>
+    <li>modifier vos informations ;</li>
+    <li>demander la suppression de votre compte ;</li>
+    <li>retirer certaines autorisations (GPS, caméra) depuis les paramètres de votre téléphone.</li>
+  </ul>
+
+  <h2>6. Conservation des données</h2>
+
+  <p>
+    Les données sont conservées aussi longtemps que nécessaire pour fournir nos services
+    ou respecter nos obligations légales.
+  </p>
+
+  <h2>7. Protection des enfants</h2>
+
+  <p>
+    JIBJOB n’est pas destiné aux enfants de moins de 13 ans.
+    Nous ne collectons pas sciemment des données personnelles concernant des enfants.
+  </p>
+
+  <h2>8. Modifications de cette politique</h2>
+
+  <p>
+    Nous pouvons mettre à jour cette Politique de confidentialité à tout moment.
+    Les modifications seront publiées sur cette page.
+  </p>
+
+  <h2>9. Contact</h2>
+
+  <p>
+    Pour toute question concernant cette Politique de confidentialité :
+  </p>
+
+  <ul>
+    <li><strong>Nom de l’application :</strong> JIBJOB</li>
+    <li><strong>E-mail :</strong> elmahdi.t@gmail.com</li>
+  </ul>
+
+  <div class="footer">
+    © 2026 JIBJOB - Tous droits réservés
+  </div>
 
 </div>
 
